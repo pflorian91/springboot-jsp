@@ -1,0 +1,13 @@
+server.port: 8089
+
+spring.mvc.view.prefix: /WEB-INF/jsp/
+spring.mvc.view.suffix: .jsp
+
+logging:
+  level:
+    root: info
+    org.springframework: info
+    org.springframework.web: debug
+    springframework.web.client.RestTemplate: info
+    reactor.netty.http.client: debug
+    com.webgenerals: debug
